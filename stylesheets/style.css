@@ -65,7 +65,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-
+.div_container{
+  width: 1440px;
+  margin: 0 auto;
+}
 header{
   background-image: url(../images/sun-set.png);
   background-position: 49% 7%;
@@ -90,7 +93,7 @@ button:focus{
 }
 .logo{
   float: left;
-  margin: 1.9% 13.8%;
+  margin: 1.5% 13.2%;
   font-size: 50px;
   color: #FFF;
   font-family: Tahoma;
@@ -98,10 +101,10 @@ button:focus{
 
 .div_nav{
   float: right;
-  margin: 2.8% 8.5% 0 0;
+  margin: 2.6% 13.5%;
 }
 .div_nav > a{
-  padding:1% 1.5%;
+  padding:10px 20px;
   font-size: 19px;
   color: #FFF;
   font-family: Tahoma;
